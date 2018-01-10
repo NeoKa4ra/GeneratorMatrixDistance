@@ -77,7 +77,7 @@ public class Time {
 	}
 
 	// Generate a random symmetric matrix[n][n], the range r of the random
-	// numbers, and a given diagonal
+	// numbers, and a given diagonal d
 	public Time(int n, int r, int d) {
 		// Initialize the random generator
 		Random randomGenerator = new Random();

@@ -44,7 +44,7 @@ public class Date {
 	}
 
 	public void printDate() {
-		System.out.println("date=[");
+		System.out.println("dates=[");
 		for (int i = 0; i < nbPart; i++) {
 			System.out.print("[" + dates[i][DEPARTURE] + ",");
 			if (i != nbPart - 1) {

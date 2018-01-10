@@ -6,9 +6,9 @@ public class Generator {
 	public static void main(String[] args) {
 
 		// Number of destinations in a square matrix
-		int nbDestSym = 10;
+		int nbDestSym = 5;
 		// Number of participants of the carpooling
-		int nbPart = 5;
+		int nbPart = 3;
 		// Maximal distance between the cities
 		int distanceMax = 100;
 		// Capacity max of the car
@@ -22,7 +22,7 @@ public class Generator {
 		// Time(n, r) : Generate a random symmetric matrix[n][n] and the range r
 		// of the random numbers
 		// Time(n, r, d) : Generate a random symmetric matrix[n][n], the range r
-		// of the random numbers, and a given diagonal
+		// of the random numbers, and a given diagonal d
 		Time t = new Time(nbDestSym, distanceMax);
 		t.printMatrix();
 
